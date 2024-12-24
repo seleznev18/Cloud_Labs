@@ -1,0 +1,45 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type;lineItem/LineItemDescription
+Storage;File Storage;Storage Service;File System Throughput;Throughput Capacity;AmazonFSx;%ThroughputCapacity;
+Storage;File Storage;Storage Service;File System Storage;Storage Capacity;AmazonFSx;%Storage;
+Storage;File Storage;Storage Service;Backup File System;Backup Usage;AmazonFSx;%BackupUsage;
+Storage;File Storage;Storage Service;Regional Data Transfer;Data Transfer;AmazonFSx;%DataTransfer-Regional-Bytes;
+Storage;Archive Storage;Storage Service;Archival Storage;Tax Charges;AmazonGlacier;;Tax%
+Storage;Archive Storage;Storage Service;Data Storage;Storage Usage;AmazonGlacier;%Bytes;
+Storage;Archive Storage;Storage Service;Provisioned Retrieval Capacity;Provisioned Capacity;AmazonGlacier;%ProvisionedCapacityUnit;
+Storage;Archive Storage;Storage Service;Storage Duration;Storage Duration;AmazonGlacier;%TimedStorage-ByteHrs;
+Storage;Archive Storage;Storage Service;Archive Retrieval Requests;Retrieval Requests(T3);AmazonGlacier;%Requests-Tier3;
+Storage;Archive Storage;Storage Service;Archive Retrieval Requests;Retrieval Requests(T1);AmazonGlacier;%Requests-Tier1;
+Storage;Archive Storage;Storage Service;Early Deletion Fee;Early Delete Charge;AmazonGlacier;%EarlyDelete%;
+Security;Threat Detection;Managed Detection;Threat Detection;Tax Charges;AmazonGuardDuty;;Tax%
+Security;Threat Detection;Managed Detection;Free Event Analysis;Free Event Analysis Usage;AmazonGuardDuty;%FreeEventsAnalyzed;
+Security;Threat Detection;Managed Detection;Paid Event Analysis;Paid Event Analysis Usage;AmazonGuardDuty;%PaidEventsAnalyzed;
+Security;Threat Detection;Managed Detection;Free Event Analysis by Data Volume;Free Event Analysis Data Usage;AmazonGuardDuty;%FreeEventsAnalyzed-Bytes;
+Security;Threat Detection;Managed Detection;Paid Event Analysis by Data Volume;Paid Event Analysis Data Usage;AmazonGuardDuty;%PaidEventsAnalyzed-Bytes;
+Security;Security and Identity;Secutiry Assesment;Agent based Assesment;Agent based Assesment Usage;AmazonInspector;%agent-assessments%;
+Security;Security and Identity;Secutiry Assesment;Network based Assesment;Network Assesment Usage;AmazonInspector;%network-assessments%;
+Compute;Developer Tools;Application Hosting;Data Transfer Out;Outbound Data Transfer Usage;AWSAmplify;%DataTransferOut;
+Compute;Developer Tools;Build and Deploy;Build Duration;Build Time Usage;AWSAmplify;%BuildDuration;
+Cloud Service;Backup Services;Data Protection;Cold Storage Early Deletion;Utility Billing;AWSBackup;%EarlyDelete-Cold%;
+Cloud Service;Backup Services;Data Protection;Cold Storage Restore;Utility Billing;AWSBackup;%Restore-Cold%;
+Cloud Service;Backup Services;Data Protection;Cold Storage;Utility Billing;AWSBackup;%ColdStorage%;
+Cloud Service;Backup Services;Data Protection;Warm Storage Restore;Utility Billing;AWSBackup;%Restore-Warm%;
+Cloud Service;Backup Services;Data Protection;Warm Storage;Utility Billing;AWSBackup;%WarmStorage%;
+Compute;Database;Database Acceleration;Node Usage;Node Hours Usage;AmazonDAX;%NodeUsage%;
+Database;Database;Amazon DynamoDB;Managed Database;Tax Charges;AmazonDynamoDB;;Tax%
+Database;Database;Amazon DynamoDB;Write Capacity;Write Capacity Usage;AmazonDynamoDB;%WriteCapacityUnit-Hrs;
+Database;Database;Amazon DynamoDB;Read Capacity;Read Capacity Usage;AmazonDynamoDB;%ReadCapacityUnit-Hrs;
+Database;Database;Amazon DynamoDB;Restore Storage;Restore Data Usage;AmazonDynamoDB;%RestoreDataSize-Bytes;
+Database;Database;Amazon DynamoDB;Stream Requests;Stream Requests Usage;AmazonDynamoDB;%Streams-Requests;
+Database;Database;Amazon DynamoDB;Write Requests;Write Requests Usage;AmazonDynamoDB;%WriteRequestUnits;
+Database;Database;Amazon DynamoDB;Read Requests;Read Requests Usage;AmazonDynamoDB;%ReadRequestUnits;
+Compute;Compute;Amazon Elastic Container Service for Kubernetes;Managed Kubernetes;Tax Charges;AmazonEKS;;Tax%
+Compute;Compute;Amazon Elastic Container Service for Kubernetes;Fargate Compute;Fargate vCPU Usage;AmazonEKS;%Fargate-vCPU-Hours%;
+Compute;Compute;Amazon Elastic Container Service for Kubernetes;Fargate Memory Usage;Fargate Memory Usage;AmazonEKS;%Fargate-GB-Hours;
+Compute;Compute;Amazon Elastic Container Service for Kubernetes;EKS Cluster Hours;Cluster Hours Usage;AmazonEKS;%AmazonEKS-Hours:perCluster;
+Compute;AI and ML;ML;Notebook Usage;Notebook Instance Usage;AmazonSageMaker;%Notebk:%;
+Compute;AI and ML;ML;Training Compute Usage;Training Instance Usage;AmazonSageMaker;%Train:%;
+Compute;AI and ML;ML;Processing Jobs;Processing Instance Usage;AmazonSageMaker;%Processing%;
+Compute;AI and ML;ML;Data Transformation;Transformation Instance Hours;AmazonSageMaker;%Tsform%;
+Compute;AI and ML;ML;Traigning Support Services;Training Support Instance Hours;AmazonSageMaker;%TrSpt%;
+Compute;AI and ML;ML;Model Hosting;Hosting Instance Hours;AmazonSageMaker;%Host:%;
+Compute;AI and ML;ML;Data Labeling;Labeled Data Processing Hours;AmazonSageMaker;%LabeledObject;
